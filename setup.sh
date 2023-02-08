@@ -1,6 +1,8 @@
 #!/bin/bash
 # wget https://raw.githubusercontent.com/titouanlacombe/server-setup/master/setup.sh
 
+set -e
+
 # Setup locale
 sudo locale-gen en_US.UTF-8
 sudo update-locale LANG=en_US.UTF-8

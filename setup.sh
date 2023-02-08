@@ -3,10 +3,6 @@
 
 set -e
 
-# Setup locale
-sudo locale-gen en_US.UTF-8
-sudo update-locale LANG=en_US.UTF-8
-
 sudo apt install -y git curl python3-pip python3
 
 curl https://get.docker.com/ | sudo bash

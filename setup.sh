@@ -1,5 +1,4 @@
 #!/bin/bash
-# Url:
 # wget https://raw.githubusercontent.com/titouanlacombe/server-setup/master/setup.sh
 
 # Setup locale

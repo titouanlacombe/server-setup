@@ -3,7 +3,7 @@
 
 set -e
 
-sudo apt install -y git curl python3-pip python3
+sudo apt install -y git curl python3-pip python3 htop
 
 curl https://get.docker.com/ | sudo bash
 sudo usermod -aG docker $(whoami)

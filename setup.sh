@@ -8,7 +8,7 @@ sudo apt install -y git curl python3-pip python3 htop
 curl https://get.docker.com/ | sudo bash
 sudo usermod -aG docker $(whoami)
 
-pip3 install docker-compose makepie
+sudo pip3 install docker-compose makepie
 
 git config --global user.name "Server"
 git config --global user.email "server@null.com"
